@@ -5,7 +5,7 @@ name: Update README with Date and Temperature
 
 on:
   schedule:
-    - cron: "0 * */1 * *"
+    - cron: "*/5 * * * *"
 
 jobs:
   build:
@@ -13,15 +13,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v4
-    - uses: actions/setup-node@v4
-      with:
-        node-version: '22'
-    - run: npm install
-    - run: npm run update-readme
-    - run: |
-        git config user.name vmgiler
-        git config user.email vmgilero@gmail.com
-        git add README.md
-        git commit -m "[cron] Update README with latest info"
-        git push origin master
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install
+      - run: npm run update-readme
+      - run: |
+          git config user.name vmgiler
+          git config user.email vmgilero@gmail.com
+          git add README.md
+          git commit -m "[cron] Update README with latest info"
+          git push origin master
