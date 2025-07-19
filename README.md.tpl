@@ -74,4 +74,4 @@
   </a>
 </p>
 <p>Latest Update date: {{ current_date }}</p>
-<p>Temperature in GYE at that time: {{ current_temperature }}</p>
+<p>Temperature in GYE: {{ current_temperature }}</p>
