@@ -73,7 +73,5 @@
     <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40" />
   </a>
 </p>
-<p>
-Latest Update date: {{ current_date }}
-Temperature in GYE at that time: {{ current_temperature }}
-</p>
+<p>Latest Update date: {{ current_date }}</p>
+<p>Temperature in GYE at that time: {{ current_temperature }}</p>
