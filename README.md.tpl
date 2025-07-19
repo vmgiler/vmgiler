@@ -74,6 +74,6 @@
   </a>
 </p>
 <p>
-Latest Update date: 2025-07-19T01:24:10
-Temperature in GYE at that time: 21°C
+Latest Update date: {{ current_date }}
+Temperature in GYE at that time: {{ current_temperature }}
 </p>

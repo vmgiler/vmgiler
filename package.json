@@ -1,0 +1,21 @@
+{
+  "name": "vmgiler",
+  "version": "1.0.0",
+  "description": "vmgiler README GitHub profile",
+  "main": "index.js",
+  "scripts": {
+    "update-readme": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vmgiler/vmgiler.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vmgiler/vmgiler/issues"
+  },
+  "homepage": "https://github.com/vmgiler/vmgiler#readme"
+}
