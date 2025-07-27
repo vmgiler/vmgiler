@@ -24,4 +24,4 @@ jobs:
           git config user.email vmgilero@gmail.com
           git add README.md
           git commit -m "[cron] Update README with latest info"
-          git push origin main
+          git push
