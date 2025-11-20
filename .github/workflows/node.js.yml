@@ -23,8 +23,8 @@ jobs:
       - run: npm install
       - run: npm run update-readme
       - run: |
-          git config user.name vmgiler
-          git config user.email vmgilero@gmail.com
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           git add README.md
           git commit -m "[cron] Update README with latest info"
           git push
